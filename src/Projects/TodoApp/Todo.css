@@ -1,0 +1,56 @@
+.Todo-Dark{
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  height: 100%;
+  min-height: 100vh;
+  padding-left: 100px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+
+}
+
+.input-box-Dark{
+  border: 1px solid white;
+  color: white;
+}
+.taskBar-Dark{
+  border: 1px solid white;
+  color: white;
+  width: 440px;
+  height: 40px;
+  margin: 10px ;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Todo-Light{
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  height: 100%;
+  min-height: 100vh;
+
+  color-scheme: light;
+  color:#242424;
+  background-color:  rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+.checkboxWithText{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
